@@ -1,0 +1,54 @@
+Employee 1: 28
+Employee 2: 35
+Employee 3: 29
+
+Arrangements or structuring of data
+A) consecutively, one after the other in memory 
+    a) No option for adding no data will be provided  [Array arrangement, no extra data can be added]
+
+    [ 28   |       35       |       29   ]   ///////////
+     0x100H        0x104H           0X108H
+
+    b) We can add more data values if required, in future  [VECTOR ARRANGEMENT, extra data can be added]
+
+     [ 28     |       35       |       29   ]   
+     0x100H          0x104H           0X108H
+
+Employee 4: 36
+
+    [ 28     |       35       |       29       |      ///     ]    
+     0x100H          0x104H           0X108H          ///
+
+            We don't have extra memory and compiler can't give extra memory
+            to store, so we have to transfer/shift all the data to another location
+            //TRANSFER DATA TO A NEW REGION
+
+            If we have to constantly add data then vector is not the correct choice
+
+    [ 28     |       35       |       29       |      36    ]    
+     0x200H          0x204H           0X208H          0X212H
+
+
+EVERYTHING IS AN ILLUSION
+
+THERE IS NO ARRAY, THERE IS NO STACK, THERE IS NO LIST
+    
+
+
+
+THINGS NOBODY TELLS ABOUT Data Structure
+
+a) Data Structures are Arrangements of data, different ways of 
+retrieving or accessing data.
+
+b) Data Structures are theoretical and philosophical. They have to be
+implemented through code.
+
+c) Implementations of Data Structucture on different platforms or 
+in different library may differ in behavior.
+
+d) There are "infinite" data structures in the world.
+
+e) Data Structures implementations have to follow rules/syntax of the language.
+
+f)

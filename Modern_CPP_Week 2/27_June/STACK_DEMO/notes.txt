@@ -1,0 +1,10 @@
+functions to perform in stack
+
+push, pop, peak
+checking the size of the file
+swapping the stack
+empty the stack
+stack merging
+
+how many ways to initialize the stack (how many constructors)  empty, move, copy, parametrised
+

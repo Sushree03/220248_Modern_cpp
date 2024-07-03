@@ -1,0 +1,36 @@
+Rule 1: 2 ways to write a path
+    a) Absolute path - a path that starts from the / the startimg point and goes to end of the path
+    b) Relative path- give location with respect to (assume your current location is already known by the compiler)
+
+
+. is current file 
+.. one above 
+~(telda)  the home path 
+cd  -   : will go back to previous location
+Tab Tab : used to check the files present inside that particular folder
+in vim
+dd: delete
+yy: copy
+p: paste
+has context menu
+
+
+
+ls commands
+
+
+1) ls with no arguments - current location is called or pwd for present working directory
+2) can run ls by providing a location    e.g - ls   /home/kpit/Desktop  (location of desktop)
+3) if one location is not sufficient then we can provide multiple locations at the same time     e.g-  ls     ~/Desktop      ~/Documents/
+        e.g- ls   ~/Desktop/   ~/Documents/   /tmp/
+4) ls   --help  //
+
+
+# cp means ctrl c ctrl v
+# mv means ctrl x ctrl v
+
+
+# command-name <options> source destination
+
+cp  1.txt   demo.txt
+

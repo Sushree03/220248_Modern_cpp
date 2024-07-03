@@ -1,0 +1,10 @@
+cpp 17
+    -variant
+    -in init
+    -structured binding
+
+concurrency 
+    - std::thread
+    - join
+    - mutex
+    - OOP based design & singleton

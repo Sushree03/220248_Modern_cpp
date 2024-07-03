@@ -1,0 +1,9 @@
+merging, rebashing, fast forwarding
+
+Roll back to previous code
+
+cherry picking
+
+git stashing
+
+

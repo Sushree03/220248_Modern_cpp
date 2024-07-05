@@ -78,9 +78,6 @@ public:
 
 };
 
-
-
-
 #endif // OPERATIONS_H
 
 

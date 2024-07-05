@@ -1,0 +1,18 @@
+error : syntactically
+    - C++ ---> code will not compile
+    - Compiler : gcc (g++)
+    - Compiler : clangd
+    - Intellisense/<some-other-name>
+
+C++ language (ISO_CPP committee)
+
+
+
+Errors:
+
+1) expected ;
+---> a semicolon is missing. Identify the line and look for left of the token and previous lines to fix.
+
+2) undefined reference to "something"(means an object/variable)
+    : ----> a) spelling/typing mistake(variable/type)
+            b) 

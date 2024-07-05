@@ -20,7 +20,7 @@
 #include <thread>
 #include <mutex>
 
-using VrType = std::variant<Car*, Bike*>;
+using VrType = std::variant<Car *, Bike *>;
 using DataContainer = std::list<VrType>;
 using THreadContainer = std::list<std::thread>;
 
@@ -30,26 +30,26 @@ private:
     static std::mutex mt;
     static DataContainer m_data;
     static THreadContainer m_threads;
-    
+
 public:
     Operations() = delete;
-    Operations(const Operations&) = delete;
-    Operations(Operations&&) = delete;
-    Operations& operator=(const Operations&) = delete;
-    Operations& operator=(Operations&&) = delete;
+    Operations(const Operations &) = delete;
+    Operations(Operations &&) = delete;
+    Operations &operator=(const Operations &) = delete;
+    Operations &operator=(Operations &&) = delete;
     ~Operations() = default;
 
-   static void CreateCarsAndBikes();
+    static void CreateCarsAndBikes();
 
     /*
         FindAverageCost : Use visit function to do this. Both Car and Bike have a m_price attribute.
         WE can use their getter function to calculate total.
     */
 
-   static void FindAverageCost();
-   /*
-        ReturnMatchingInstance : Variant whose ID matches with the Id passed
-   */
+    static void FindAverageCost();
+    /*
+         ReturnMatchingInstance : Variant whose ID matches with the Id passed
+    */
 
     static std::optional<VrType> ReturnMatchingInstance(std::string id);
 
@@ -69,16 +69,13 @@ public:
     /*
         MapThreads : Attach a thread to a functionality
     */
-   static void MapThreads();
+    static void MapThreads();
     /*
-        JoinThreads : Blocking  main for 
+        JoinThreads : Blocking  main for
     */
-   static void JoinThreads();
-
-
+    static void JoinThreads();
 };
 
 #endif // OPERATIONS_H
 
-
-//it'll store in binary, executable size will increase
+// it'll store in binary, executable size will increase

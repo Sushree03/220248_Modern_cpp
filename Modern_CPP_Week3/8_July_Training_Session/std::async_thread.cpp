@@ -21,3 +21,11 @@ int main() {
 }
 
 //async is a thread but can only capture thereturn value
+
+
+
+
+
+
+
+//WANT TO RUN FUNCTION IN THREAD, use async thread, 

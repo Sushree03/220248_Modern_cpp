@@ -1,0 +1,30 @@
+
+
+
+example :
+
+inputs : 10, 12, 7, 9, 16
+
+10 + 12 + 7 + 9 + 16 : original problem
+|
+(22) + 7 + 9 + 16
+|
+( (22) + 7) + 9 + 16
+|
+( (29) + 9 ) + 16
+|
+( 38 + 16)
+|
+54
+
+
+add(10,12,7,9,16)
+    |
+    10 + add(12,17,9,16)
+            |
+            17 + add(9,16)
+                    |
+                    17 + 25
+
+//if sub problem occurs one time, then it is recurssion
+and if sub problem occurs more than one time then it is dynamic programming

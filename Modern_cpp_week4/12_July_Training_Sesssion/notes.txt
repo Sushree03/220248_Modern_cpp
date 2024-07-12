@@ -1,0 +1,72 @@
+Effective use of STL
+
+1) STL containers
+2) STL algorithms (more commonly used)
+3) Theoretical understanding DSA
+
+
+/*
+
+HEAP
+-----
+
+    [101 | Rohan ]   [ 102 | Akash ]   [ 103 | Sush ] [104 | Raj ]
+    0x100H           0x987H             0x435H        0x765H
+
+    Need to make a class
+    make 4 objects
+    to store data in heap or stack
+    do operations with the given info
+
+
+
+    Doubly Linked List
+
+    ---------------
+
+    Array 
+
+    ---------------
+
+    Vector
+    --------------
+
+    constant time - the number of steps remains the same no matter what and how many operations are performed
+                    size of data has no impact on operations
+                    data has no relevance on operations
+                    form corelation between data and operations
+
+
+
+    4 rows
+                                                             
+                                                                                end
+    [101 | Rohan ]   [ 102 | Akash ]   [ 103 | Sush ] [104 | Raj ]            /////
+    0x100H           0x987H             0x435H        0x765H
+
+    row no.                                 Data
+     0                                    
+     1                                    [ 101  | Rohan ]
+     2                                    [ 102  | Akash ]
+     3                                    [ 103  | Sush  ]---->[ 203 Raj]
+    
+    
+*/
+
+//101 % 4 == 1
+
+/*
+Hashing/Hash function: Mathematical operation (hash function)
+applied on key
+e.g. - 0,1,2,3 are hash values
+
+collison : Situation where hash function applied on 2 or more keys coincidentally gives the same values.
+    e.g: 203 % 4 and 103 % 4 gives answer as 3 in both cases
+ 
+    Collision resolution techniques: Actions that can be taken to resolve collision
+    e.g: Linear Probing, Double Hashing, Open Chaining etc.
+
+
+*/
+
+end is always outside the container

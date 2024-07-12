@@ -20,7 +20,7 @@ public:
     Car& operator=(const Car&)=delete;
     Car& operator=(Car&&)=delete;
  
-    float InsuranceAmount();
+    float InsuranceAmount();   //user defined member function
  
     std::string id() const { return m_id; }
  

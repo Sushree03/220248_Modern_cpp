@@ -2,8 +2,9 @@
 #include <memory>
 #include "Employee.h"
 
-void Destination(int n1) {
-
+template <typename T>
+void Destination(T&& arg) {
+    std::cout << 
 }
 
 template<typename I, typename... Args>

@@ -1,0 +1,24 @@
+
+[    [///////]    [///////]   [///////]   [///////]    ]
+
+    - Average of the 4 boxes's values
+    - Minimum or maximum of certain value inside the box
+    - Check if all boxes satisfy a condition
+    - Check if none of the boxes satisfya condition
+    - Check if at least one of the boxes satisfy a condition
+    - filtering of boxes based on condition
+    - Transform each box's value to something based on a operation
+        e.g-
+
+
+
+//Middleware software:
+        --> while the car is in operation,
+            - fetch telemetry data
+            - store the data in a cloud environment for future use
+
+    example 1: Send a notification to the customer for 
+    schedulin.g a service appointment
+
+    example 2: Create a ml model that can switch car modes from
+    performance to economic mode to enhance battery

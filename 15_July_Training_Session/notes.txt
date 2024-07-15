@@ -1,8 +1,8 @@
 c-style array
-STL array : std::array<T,S> e.g : std::array<int,5>
-STL vector :  e.g : std::list<int>
-STL list : (doubly linked list) : e.g: std::list<int>
-STL unordered_map (hashtable key-value pair) : std::unordered_map<int, std::string>
+STL array : std::array<T,S> e.g : std::array<int,5>       ###########
+STL vector :  e.g : std::list<int>###########
+STL list : (doubly linked list) : e.g: std::list<int>     #############
+STL unordered_map (hashtable key-value pair) : std::unordered_map<int, std::string>    #############
 
 STL unordered_map (hashtable  key) : std::unordered_set<int>
 
@@ -13,9 +13,14 @@ Those do not have unordered in their name are based on tree data structures.
 Adaptors
 -------------
 
-std::stack 
+std::stack    ###### 
 std::queue
 std::priority_queue
 
 Binary Search Tree (BST)
 ----------------------------
+
+Priority Queue - min heap and max heap 
+
+
+heapify function

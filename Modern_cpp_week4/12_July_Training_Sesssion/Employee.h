@@ -15,7 +15,7 @@ private:
 public:
     Employee() = delete;
     ~Employee() = default;
-    Employee(const Employee&) = delete;
+    Employee(const Employee&) = default;
     Employee(Employee&&) = delete;
     Employee& operator=(const Employee&) = delete;
     Employee& operator=(Employee&&) = delete;

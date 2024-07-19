@@ -1,0 +1,103 @@
+-notes
+
+1) Experience is intangible and beyond the scope of this 
+roadmap, higher the experience, the better!
+2) The roadmap is a guideline, implementation is upto the follower!
+3) The roadmap is industry proven, recession-resistent, honest, malpractice ignoring, cheating prohibiting
+
+15 steps[milestones, skills]!
+
+1) Absolute mastery in at least 1 language, respectable knowledege in 2 more
+
+preferred combination : a system's language, an OOP language,
+                              a scripting language
+example : C++/Rust,  Java/Kotlin/C++ , python or shell scripting
+
+2) Linear data structure
+        - arrays, lists, stacks, queues, vector
+
+3) Command-line 
+    - unix/linux command-line or powershell in windows!
+[(basic utilities,copy, create, move, redirecting, cp, touch)
+ (some helpful tools, regex, find command/equivalent,
+  file permissions,
+  sudo previleges,
+  chroot and filesystems, 
+  demeons and ports etc)]
+
+///////////////////////////
+
+4)Operating System fundamentals
+    - process lifecycle, threads, scheduling, critical sections, semaphores, 
+      virtual memory, Inter-ProceeCommunication, Signals
+    - Not just theory, actually use of these concepts!
+
+5) Computer Architecture (At least the essential concepts!)
+    - Memory, cache, buses, components interact with each other
+    - Direct connection with OS
+
+6) Computer Networks (A bit more than just basics)
+    - ip, ports, OSI layer, protocols
+    - VLANs, VPN, subnetting
+    - socket programming, firewalls, algorithms for networks [optional*]
+
+    *Note: optional only if you are  a developer. If your job 
+    is CI/CD, virtualization, containerization, IASS, it is mandatory
+
+7) Databases Management Systems
+    - SQL and NoSQL. One each [e.g: MariaDB & MongoDB]
+    - applied knowledge, not just theoretical. 
+    Do actual joins, CRUD, permissions,export, import, etc
+
+////////////////////////////////////////////////////////
+     HIGHER-INTERMEDIATE
+
+8) Virtualization Technologies
+    - Hypervisors, Creating and Managing VMs, advantages & Disadvantages
+    - Hands-on creations of VMs on laptops/Desktops is desired!
+
+9) Containerization
+    - what are containers, VMs v/s Container, creating container for development
+    - Docker, podman, etc
+    - After learning containers, you "MAY HAVE TO" learn container orchestration
+    tools like "Kubernates aka K8s"
+
+10) API consumption/Testing Technologies
+    - POSTMAN!
+    - Libraries for API consumption : e.g : requests in python, curl on c, etc
+    - Learn how to integrate data from APIs into apps including
+        -Authentication, headers, status code, etc
+////////////////////////////////////////////////////////
+
+ADVANCED/ULTRA_PRO_MAX TOPICS
+////////////////////////////////
+
+11) Non-Linear Data structures
+    - trees, graphs, graph theory, implementation
+    of tree based data structures
+    - processing data to solve problems using trees and graphs
+
+12) Advanced algorithms
+    - Graph algorithms, greedy, NP, P problems, etc
+    - These section to connect non-linear data structure
+
+13) Competitive Coding skills [THE WORST PART OF THE MILESTONE]
+    - start with easy problems- Buy a pro subscription of CodeChef, leetcode, AlgoExpert.io etc
+    - practice intermediate & advanced problems under pro licence
+
+Note: Competitive coding is not about remembering exact solution by memorizing them.
+It is about recognizing problems that are similar to the ones 
+you have solved so you can build solutions quickly
+
+14) Proper Version control
+    - good understanding of at least 1 version control tool (git)
+    - Work with a team so that you understand challenges of version control
+
+15) Cloud Computing
+    - Pre-requisites : computer networks, technical exposure!
+    - Either AWS, Azure or GCP (in this preferential order) must be learnt
+    - Actual use of popular services (e.g route 53, EC2, DynamoDB of AWS)
+
+    //////////////////////////////////////////////////////////////
+    ssd 16gb
+

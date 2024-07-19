@@ -48,6 +48,8 @@ public:
 
     float experienceYears() const { return m_experience_years; }
 
+    std::string name() const { return m_name; }
+
     friend std::ostream &operator<<(std::ostream &os, const Employee &rhs) {
         os << "m_id: " << rhs.m_id
            << " m_name: " << rhs.m_name
